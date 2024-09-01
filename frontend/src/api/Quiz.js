@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const BACKEND_ORIGIN_URL = 'https://formbuilderbackend-zay6.onrender.com/form'
-const BACKEND_ORIGIN_URL = 'http://localhost:4005/quiz'
+const BACKEND_ORIGIN_URL = 'https://quizzeapp.onrender.com/quiz'
 
 const createQuiz = async (quizName , quizType , questions) =>{
     try {
