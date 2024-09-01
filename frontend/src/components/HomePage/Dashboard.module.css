@@ -1,0 +1,87 @@
+.page{
+    width: 100%;
+    /* background-color: #ededed; */
+    padding: 8vh 5rem;
+    padding-bottom: 0;
+}
+
+.quizesData{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quizesData div{
+    width: 30%;
+    min-width: 200px;
+    height: 9rem;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    padding: .5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.quizesData p{
+    text-align: center;
+}
+.quizesData span{
+    font-size: 4rem;
+}
+
+.quizsInfo{
+    margin-top: 1.8rem;
+}
+
+.quizsInfo h1{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #474444;
+}
+
+.quizContainer{
+    height: 50vh;
+    overflow-y: scroll;
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 2rem;
+}
+.quizContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+.quizCard{
+    background-color: #fff;
+    border-radius: 5px;
+    /* width: 22%;
+    min-width: 200px; */
+    min-height: 60px;
+    max-height: 120px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quizCard h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #474444;
+}
+
+.impression{
+    color: #FF5D01;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.quizCard p{
+    color: #60b84b;
+    font-size: .75rem;
+    font-weight: 600;
+}

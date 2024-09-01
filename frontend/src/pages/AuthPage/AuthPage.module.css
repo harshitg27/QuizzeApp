@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.page {
+    height: 100vh;
+    background: #f2f2f2;
+    color: #474444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 80vh;
+    width: 80vw;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.heading{
+    font-size: 6rem;
+    font-family: "Jomhuria", serif;
+    line-height: 6rem;
+    font-weight: 400;
+}
+
+.authType div{
+    height: 2.5rem;
+    min-width: 13rem;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.formPage{
+    width: 45vw;
+    min-width: 300px;
+}
+
+.formPage form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputBox {
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+}
+
+.formPage label {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.formPage input {
+    width: 60%;
+    height: 2.5rem;
+    padding: 10px;
+    background: #f4f4f4;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.inputBoxError{
+    border: 1px solid #D60000;
+}
+.inputBoxError::placeholder{
+    color: #D60000;
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+
+.formPage button {
+    width: 20vw;
+    background-color: #A9BCFF;
+    align-self: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.page {
+    width: 100%;
+    padding: 8vh 5rem;
+    padding-bottom: 0;
+    overflow-y: hidden;
+}
+
+.copylink {
+    position: absolute;
+    max-height: 35px;
+    min-width: 110px;
+    top: 1.5rem;
+    right: 6rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #60b84b;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: .5rem;
+    padding-right: 1rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #5076FF;
+}
+
+.quizTable {
+    height: 68vh;
+    margin-top: 3rem;
+    overflow-y: scroll;
+}
+
+.quizTable::-webkit-scrollbar {
+    display: none;
+}
+
+.tableHeading {
+    background: #5076FF;
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #fff;
+    font-weight: 600;
+    /* font-size: 1rem; */
+}
+
+.tableHeading h6,
+.tableRow p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.tableRow {
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.iconDiv {
+    margin-left: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.iconDiv img {
+    width: 1.5rem;
+    height: 1.5rem;
+}

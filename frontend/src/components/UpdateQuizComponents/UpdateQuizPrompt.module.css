@@ -1,0 +1,183 @@
+.wrapper{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .81);
+}
+
+.page{
+    width: 70vw;
+    min-width: 600px;
+    height: 84vh;
+    border: 1px solid #47474A;
+    border-radius: 1.5rem;
+    padding: 4vh 5vw ; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    background: #ffffff;
+    position: fixed;
+    left: 17vw;
+    top: 8vh;
+    color: #9f9f9f;
+    font-size: 1.25rem;
+}
+
+.quizInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+}
+.quizInfo h4{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.questionNums{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.questionNums p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.questonNumber{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question{
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #000000;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .15);
+    outline: none;
+}
+
+
+.optionType{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.optionType h3{
+    font-weight: 500;
+    color: #000000;
+}
+
+.optionsContrainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.optionDiv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.optionInput  , .optionTextInput{
+    width: 28vw;
+    height: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .15);
+}
+
+.optionInput , .optionTextInput{
+    padding-left: 1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #9f9f9f;
+}
+
+.optionTextInput{
+    width: 16vw;
+}
+
+.deleteIcon {
+    color: #d60000;
+}
+
+.addOption{
+    font-weight: 600;
+    color: #474444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.timerContainer{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+}
+.timerContainer span{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .15);
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.action h3{
+    width: 45%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cancel{
+    color: #474444;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .25);
+}
+
+.continue{
+    color: #fff;
+    background: #60b84b;
+}

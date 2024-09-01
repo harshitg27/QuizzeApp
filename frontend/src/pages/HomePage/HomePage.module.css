@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.page {
+    display: flex;
+    background: #EDEDED;
+}
+
+.sidebar {
+    width: 17vw;
+    height: 100vh;
+    min-width: 170px;
+    padding: 1rem .5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    color: #474444;
+}
+
+.sidebar h1 {
+    font-family: "Jomhuria", system-ui;
+    font-weight: 400;
+    font-size: 4.4rem;
+}
+
+.sidebar h3 {
+    cursor: pointer;
+}
+
+.actionSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.actionSection h3 {
+    height: 40px;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logoutSection {
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+    cursor: pointer;
+}
+
+.logoutSection hr {
+    width: 70%;
+}

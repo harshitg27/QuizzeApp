@@ -1,0 +1,163 @@
+.page{
+    width: 100vw;
+    height: 100vh;
+    background-color: #041325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizContainer {
+    width: 88vw;
+    height: 80vh;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .15);
+    background-color: #fff;
+    color: #474444;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+/* 
+    justify-content: space-between; */
+}
+
+.questionNumberAndTimer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.questionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.questionContainer h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.optionsContainer{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 2rem;
+}
+
+.optionsContainer div{
+    justify-self: center;
+    width: 26vw;
+    height: 8rem;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.optionsContainer p{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.optionsContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.actionButton{
+    align-self: center;
+    width: 25vw;
+    height: 3.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: #60b84b;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    /* position: absolute; */
+    /* bottom: 2rem; */
+}
+
+.messageContainer{
+    width: 88vw;
+    height: 80vh;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .15);
+    background-color: #fff;
+    color: #474444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pollMessage{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.answerMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.answerMessage p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.answerMessage img{
+    width: 20rem;
+    height: 20rem;
+}
+.answerMessage span{
+    color: #60b84b;
+}
+
+@media screen and (max-width : 576px) {
+    .quizContainer{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .questionNumberAndTimer{
+        font-size: 1.5rem;
+    }
+
+    .quizContainer h3{
+        text-align: center;
+        font-size: 1.9rem;
+    }
+    .optionsContainer{
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 1rem;
+    }
+    .optionsContainer div{
+        width: 80%;
+        height: 14vh;
+    }
+
+    .messageContainer{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .pollMessage{
+        font-size: 2.1rem;
+    }
+}

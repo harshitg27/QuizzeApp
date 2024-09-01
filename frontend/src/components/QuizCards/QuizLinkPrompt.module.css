@@ -1,0 +1,85 @@
+.wrapper{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .81);
+}
+
+.page{
+    width: 60vw;
+    min-width: 750px;
+    height: 70vh;
+    border-radius: 1rem;
+    padding: 5vh 5vw ; 
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: #ffffff;
+    position: fixed;
+    left: 16 vw;
+    top: 20vh;
+    color: #474444;
+}
+
+.closeIcon{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    right: 1rem;
+}
+
+.copylink{
+    position: absolute;
+    max-height: 35px;
+    min-width: 110px;
+    top: 1.5rem;
+    right: 6rem;
+    border-bottom: 1px solid #60b84b;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: .5rem;
+    padding-right: 1rem;
+}
+
+.page h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.linkDiv{
+    width: 100%;
+    min-height: 60px;
+    background: #EDEDED;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.shareButton{
+    width: 40%;
+    min-width: 250px;
+    height: 2.75rem;
+    margin-top: 1rem;
+    background: #60b84b;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
